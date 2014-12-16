@@ -1,0 +1,44 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@color/white_color"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/create"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/create_color"
+            android:padding="10dp"
+            android:text="@string/create_event" />
+
+        <Button
+            android:id="@+id/edit"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/edit_color"
+            android:padding="10dp"
+            android:text="@string/edit_event" />
+
+        <Button
+            android:id="@+id/delete"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/delete_color"
+            android:padding="10dp"
+            android:text="@string/delete_event" />
+    </LinearLayout>
+    
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+	    
+	    <EditText 
+	        android:id="@+id/event_name"
+		    android:layout_width="match_parent"
+		    android:layout_height="50dp"
+		    android:hint="@string/event_name"/>
+	    <EditText 
+	       	android:id="@+id/description_name"
+		    android:layout_width="match_parent"
+		    android:layout_height="50dp"
+		    android:hint="@string/hint_desc"/>
+	    
+	    <Button
+	        android:id="@+id/add_events"
+	        style="@style/ButtonText"
+	        android:layout_width="100dp"
+	        android:layout_height="50dp"
+	        android:layout_gravity="right"
+	        android:padding="10dp"
+	        android:background="@color/create_color"
+	        android:text="@string/add_event"/>
+
+        
+        <Button 
+            android:id="@+id/associate_notes"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@color/edit_color"
+            android:padding="10dp"
+            android:text="@string/assoc_note"/>
+        
+        <Button 
+            android:id="@+id/associate_slides"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@color/delete_color"
+            android:padding="10dp"
+            android:text="@string/assoc_slide"/>
+
+
+</LinearLayout>
